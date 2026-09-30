@@ -1,0 +1,54 @@
+:root {
+  font-family: "Satoshi", "Segoe UI", Arial, sans-serif;
+  color: #20232a;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-optical-sizing: auto;
+}
+
+h1,
+h2,
+.hero h1,
+.growth-numbers b,
+.progress-stat strong,
+.growth-progress strong,
+.growth-sticker,
+.revenue-card strong {
+  font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid #728d00;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #151a00;
+  background: #d3ff00;
+}
